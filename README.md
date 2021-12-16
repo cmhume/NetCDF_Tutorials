@@ -17,10 +17,10 @@ To view NetCDF files in Jupyter Notebook the following libraries were installed 
 ## What is a NetCDF file?
 
 
-NetCDF - Network Common Data Form developed by UniData for recording and sharing multidimensional scientific data
+NetCDF - Network Common Data Form (NetCDF) was developed by UniData for recording and sharing multidimensional scientific data.
 
 
-File ending = .nc
+File endings = .nc, .nc4
 
 
 ## GES DISC Tutorial - How to read and plot NetCDF MERRA-2 data in Python
@@ -48,12 +48,27 @@ MERRA2_300.tavgM_2d_slv_Nx.201001.nc4
 3.  Download file named 'MERRA2_300.tavgM_2d_slv_Nx.201001.nc4'
 
 
-### Contour Maps with matplotlib and Cartopy
+### Install Cartopy and NCD4 libraries in the coding environment
+
+
+### Import dependencies
+
+
+### Open and read file
+
+
+### Plot Contour Maps with matplotlib and Cartopy
 
 ![Screenshot (478)](https://user-images.githubusercontent.com/78699521/145663381-bd9818aa-b8b6-4501-927b-e9364af045fc.png)
 
 
 ![Screenshot (479)](https://user-images.githubusercontent.com/78699521/145663383-e1a75477-7255-4cc9-a089-09bc08652a86.png)
+
+### Close file
+
+
+## Notebook Tutorial
+
 
 
 ### Further Resources
